@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css " rel="stylesheet">
+    <title>WebSite</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navigation">
+        <a href="#" class="logo">F<span>oo</span>D P<span>ee</span>K
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Contato</a>
+          </li>
+          <i class="bx bx-search"></i>
+        </ul>
+
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home">
+        <div class="home-text">
+          <h4 class="text-h4">Bem Vindo ao Food Peek</h4>
+          <h1 class="text-h1">Diferentes sabores para diferentes paladares</h1>
+          <p>lorem ipsum</p>
+          <a href="#" class="home-btn">Faça seu Pedido</a>
+        </div>
+
+        <div class="home-img">
+          <img src="https://marketplace.canva.com/EAFNu8D_6qA/1/0/1131w/canva-card%C3%A1pio-para-hamburguerias-e-lanchonetes-profissional-laranja-preto-zfV3l3Chz0Q.jpg" alt="cardapio" width="300">
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const menu = document.querySelect('.menu');
+      const navMenu = document.queryselect('.nav-manu');
+      menu.addEventListener('click', () => {
+        menu.classList.toggle('ativo');
+        navMenu.classList.togle('ativo');
+      })
+    </script>
+
+
+
+
+
+
+  </body>
+
+</html>
